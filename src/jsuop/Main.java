@@ -14,5 +14,7 @@ public class Main {
 		save.saveNowArray(get.nowArray());
 		save.saveContacts(con);
 		send.sendEmail(con);
+		
+		System.out.println("commit test");
 	}
 }
